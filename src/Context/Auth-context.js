@@ -3,6 +3,7 @@ import React from 'react';
 
 
 
-export const AuthContext = ()=>{
-    
-}
+export const AuthContext = React.createContext({
+    isAuth:false,
+    login:()=>{}
+})
