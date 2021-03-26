@@ -1,0 +1,19 @@
+.link-li{
+    margin: 0;
+    display: inline-block;
+    background-color: rgb(90, 52, 150);
+    color: #ffff;
+    text-align: center;
+    cursor: pointer;
+    padding:  32px 20px;
+}
+
+.link-li:hover{
+    background-color: rgb(88, 88, 214);
+}
+
+.link-li>a{
+    text-decoration: none;
+    color: #ffff;
+    padding:32px 20px;
+}
